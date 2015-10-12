@@ -1,0 +1,36 @@
+{
+
+  "name": "Jonathan Ho",
+  "nick": "Joho",
+  "contact": {
+    "email": "joho@joho.io",
+    "location": "New York NY",
+    "site": "http://joho.io"
+  },
+  "profiles": [{
+      "network": "GitHub",
+      "username": "loljoho",
+      "link": "http://github.com/loljoho"
+    }, {
+      "network": "AngelList",
+      "username": "loljoho",
+      "url": "http://angel.co/loljoho"
+  }],
+  "overview": {
+    "summary": [
+      "Web Developer specialising in Front-End Application Development with Full-Stack experience and backgrounds in Computer Science and Information Technology.",
+      "Over 10 years of experience including exposure to: AngularJS, Node.js, HTML, CSS & Sass; Platform-Agnostic & Responsive UI/UX; REST API design & integration; and Amazon Web Services cloud computing.",
+      "Experienced leader, passionate towards learning and continuous self-improvement.",
+      "Likes people.",
+      "Allergic to cats."
+    ],
+    "highlights": [
+      "AngularJS Web Application Development",
+      "Platform-Agnostic & Responsive Design",
+      "Apache-MySQL-PHP (LAMP/WAMP) Stack",
+      "Node.js & Express Back-End Development",
+      "Amazon Web Services Cloud Computing"
+    ]
+  }
+
+}

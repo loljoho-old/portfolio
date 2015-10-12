@@ -1,0 +1,18 @@
+{
+    "projects": [{
+        "name": "poppyGrandPrix",
+        "role": "Full-Stack Developer",
+        "desc": "Description of poppyGrandPrix project; description of poppyGrandPrix project; description of poppyGrandPrix project.",
+        "link": "http://poppy.gq",
+        "code": "https://github.com/loljoho/poppyGP-player",
+        "tech": [
+            "gulp",
+            "css3",
+            "angular",
+            "sass",
+            "ec2",
+            "apache",
+            "gulp"
+        ]
+    }]
+}

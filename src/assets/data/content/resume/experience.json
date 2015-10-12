@@ -1,0 +1,81 @@
+[
+  {
+    "title": "Full-Stack Developer",
+    "subtitle": "poppyGrandPrix",
+    "description": "Responsive, cross-platform, single-page web application with video channel and IRC webchat for online motor racing enthusiasts' community",
+    "details": [
+      {
+        "type": "status",
+        "value": "v1.0.0"
+      },
+      {
+        "type": "date",
+        "value": "2014 - 2015"
+      },
+      {
+        "type": "link",
+        "value": "http://poppy.gq"
+      },
+      {
+        "type": "code",
+        "value": "https://github.com/loljoho/poppyGP"
+      }
+    ],
+    "highlights": [
+      "Independently designed, developed, and deployed platform-agnostic AngularJS application with visitors from all timezones and continents",
+      "Alleviated 400% traffic spike in early stages by deploying an AWS EC2 instance, and succeded in migrating from previous webhost while maintenaning consistency of service"
+    ],
+    "tags": [
+      "AngularJS", "AWS EC2", "HTML5", "CSS3/Sass"
+    ]
+  },
+  {
+    "title": "Technician",
+    "subtitle": "Safe Haven Computers",
+    "description": "Field and Shop Technician for Full-Service IT Company",
+    "details": [
+      {
+        "type": "location",
+        "value": "Raritan, NJ"
+      },
+      {
+        "type": "date",
+        "value": "2010 - 2011"
+      }
+    ],
+    "highlights": [
+      "Conducted remote and on-site diagnostic services and technical support for corporate clientele, building rapport through establishing and strengthening professional relationships",
+      "Devised design specifications for custom computer systems by interpreting client requirements, and oversaw assembly and quality assurance procedures, consistently surpassing customer satisfaction",
+      "Communicated with team members, clients, and distributors to confirm accuracy, receipt, and assembly of special parts orders in a timely manner",
+      "Managed inventory control by meticulously documenting merchandise movement and carefully inspecting incoming stock shipments for quality and quantity"
+    ],
+    "tags": [
+      "Windows", "Technical Support", "Computer Hardware", "Networking"
+    ]
+  },
+  {
+    "title": "Technician",
+    "subtitle": "Safe Haven Computers",
+    "description": "Field and Shop Technician for Full-Service IT Company",
+    "details": [
+      {
+        "type": "location",
+        "value": "Hillsborough, NJ"
+      },
+      {
+        "type": "date",
+        "value": "2004 - 2009"
+      }
+    ],
+    "highlights": [
+      "Conducted ad-hoc analysis by developing applications with PHP and MySQL to characterise sales trends, and coordinated with team members to identify key targets of financial and logistical deficit",
+      "Cut technical and logistical overhead with open-source software alternatives, and implemented standard office protocols to streamline daily operations, such as Gaim and XMPP instant messaging in place of paper memos and e-mails",
+      "Eliminated user error in routine software use by writing AutoIt scripts to handle batch processes performed on a daily basis",
+      "Provided training, technical support, and administration for office and warehouse staff and computer and network systems",
+      "Earned promotional advancement from Technician position by successfully applying technical solutions in solving and improving financial and logistical operations"
+    ],
+    "tags": [
+      "PHP", "MySQL", "Windows", "Networking"
+    ]
+  }
+]

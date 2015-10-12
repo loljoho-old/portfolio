@@ -1,0 +1,74 @@
+/**
+ * ------------------------------
+ *  Layout
+ * ------------------------------
+ *
+ * Responsive attributes, etc.
+ *
+ */
+
+
+
+
+
+
+
+
+
+// @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+//   body {
+//     height: 75%
+//   }
+// }
+//
+// // viewport-lg
+// @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+//   html,
+//   body {
+//     height: 100%
+//   }
+//   body {
+//     background-color: rgba(255, 255, 255, 1)
+//   }
+// }
+//
+// // tablet landscape
+// @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+//   .content-wrapper {
+//     background-color: rgba(242, 242, 242, 1);
+//     margin: 0 auto;
+//     width: 96%
+//   }
+// }
+//
+// // mobile portrait
+// @media only screen and (min-device-width: 320px) and (max-device-width: 480px) and (orientation: portrait) {
+//   html {
+//     -webkit-text-size-adjust: none;
+//   }
+//   body {
+//     font-size: 70%;
+//     overflow-x: hidden
+//   }
+// }
+//
+// // mobile landscape
+// @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (orientation: landscape) {
+//   html {
+//     -webkit-text-size-adjust: none
+//   }
+//   body {
+//     background-color: rgba(255, 255, 255, 1);
+//     font-size: 70%;
+//     overflow-x: hidden
+//   }
+//   .content-wrapper {
+//     background-color: rgba(242, 242, 242, 1);
+//     margin: 0 auto;
+//     width: 96%
+//   }
+// }
+//
+// // print
+// @media only print {
+// }

@@ -1,0 +1,77 @@
+/**
+ * ------------------------------
+ *  Typography
+ * ------------------------------
+ *
+ * Global font styles
+ *
+ */
+
+
+
+
+
+
+
+
+html, body {
+  font-family: $font-family;
+  font-size: $font-size-base;
+
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0.00);
+  -webkit-touch-callout: none;
+
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+
+button, select, textarea, input {
+  font-family: $font-family;
+  font-size: 100%;
+}
+
+
+
+
+a {
+  color:
+}
+
+
+
+
+
+h1 {
+
+}
+
+
+h2 {
+
+}
+
+
+h3 {
+
+}
+
+
+h4 {
+
+}
+
+
+h5 {
+
+}
+
+
+h6 {
+
+}

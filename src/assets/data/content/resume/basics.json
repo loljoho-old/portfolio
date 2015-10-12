@@ -1,0 +1,33 @@
+{
+    "name": "Jonathan Ho",
+    "label": "Developer",
+    "picture": "http://i.imgur.com/E9LZQHi.jpg",
+    "email": "joho@joho.io",
+    "phone": "(929) 400-7843",
+    "website": "http://joho.io",
+    "summary": "Web Developer with background in Computer Science and Information Technology.  Experienced with: AngularJS application development; platform-agnostic, responsive UI/UX design; Amazon Web Services cloud computing services; and RESTful APIs. Experienced leader motivated by a passion for learning and continuous self-improvement. Likes people. Allergic to cats.",
+    "location": {
+      "address": "",
+      "postalCode": "NY",
+      "city": "New York",
+      "countryCode": "US",
+      "region": "New York"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "loljoho",
+        "url": "http://github.com/loljoho"
+      },
+      {
+        "network": "AngelList",
+        "username": "loljoho",
+        "url": "http://angel.co/loljoho"
+      },
+      {
+        "network": "Facebook",
+        "username": "loljoho",
+        "url": "http://facebook.com/loljoho"
+      }
+    ]
+}

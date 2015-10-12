@@ -1,0 +1,82 @@
+/**
+ * ------------------------------
+ *  Utilities
+ * ------------------------------
+ */
+
+
+
+
+
+
+
+// ------------------------------
+// Responsive Styles
+// ------------------------------
+
+
+
+
+//  Mobile (sm)
+// ------------------------------
+
+@media only screen and (min-width: 0) and (max-width: $viewport-sm - 1) and (orientation: portrait) {
+
+}
+
+@media only screen and (min-width: 0) and (max-width: $viewport-sm - 1) and (orientation: landscape) {
+
+}
+
+
+//  Tablet (sm) & Mobile (lg)
+// ------------------------------
+
+@media only screen and (min-width: $viewport-sm) and (max-width: $viewport-md - 1) and (orientation: portrait) {
+
+}
+
+@media only screen and (min-width: $viewport-sm) and (max-width: $viewport-md - 1) and (orientation: landscape) {
+
+}
+
+
+//  Tablet (lg) & Screen (sm)
+// ------------------------------
+
+@media only screen and (min-width: $viewport-md) and (max-width: $viewport-lg - 1) and (orientation: portrait) {
+
+}
+
+@media only screen and (min-width: $viewport-md) and (max-width: $viewport-lg - 1) and (orientation: landscape) {
+
+}
+
+
+//  Screen (md)
+// ------------------------------
+
+@media only screen and (min-width: $viewport-lg) and (max-width: $viewport-xl - 1) and (orientation: portrait) {
+
+}
+
+@media only screen and (min-width: $viewport-lg) and (max-width: $viewport-xl - 1) and (orientation: landscape) {
+
+}
+
+
+//  Screen (lg)
+// ------------------------------
+
+@media only screen and (min-width: $viewport-xl)
+
+}
+
+@media only screen and (min-width: $viewport-xl)
+
+}
+
+
+
+
+// ------------------------------

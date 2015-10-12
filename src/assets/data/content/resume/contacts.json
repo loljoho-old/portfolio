@@ -1,0 +1,22 @@
+{
+  "contactList": [
+    {
+      "name": "email",
+      "icon": "fa-send",
+      "label": "joho@joho.io",
+      "value": "mailto:joho@joho.io"
+    },
+    {
+      "name": "site",
+      "icon": "fa-external-link",
+      "label": "joho.io",
+      "value": "http://joho.io"
+    },
+    {
+      "name": "github",
+      "icon": "fa-github-alt",
+      "label": "loljoho",
+      "value": "https://github.com/loljoho"
+    }
+  ]
+}

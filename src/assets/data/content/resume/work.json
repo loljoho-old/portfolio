@@ -1,0 +1,39 @@
+{
+    "work": [
+        {
+          "company": "Safe Haven Computers",
+          "position": "Technician",
+          "website": "Raritan, NJ",
+          "startDate": "2010",
+          "endDate": "2011",
+          "summary": "Technician for full-service IT company with corporate and private clientele",
+          "highlights": [
+            "Devised design specifications and oversaw assembly of custom systems as per client requirements and specifications",       "Provided remote and on-site technical support and diagnostic services for a variety of corporate and individual clientele"
+          ]
+        },
+        {
+          "company": "Fulgo, Inc.",
+          "position": "Systems Engineer",
+          "website": "Hillsborough, NJ",
+          "startDate": "2005",
+          "endDate": "2009",
+          "summary": "Systems Engineer and Technical Consultant for international wholesale business",
+          "highlights": [
+            "Performed ad-hoc analysis by writing PHP PDO scripts with MySQL data sets to characterise sales trends, coordinated with team members to identify targets of deficit, and presented financial strategy and logistical solutions",
+            "Eliminated user errors in daily software processes by writing AutoIt batch processing scripts with predefined input values"
+          ]
+        },
+        {
+          "company": "Fulgo, Inc.",
+          "position": "Technician",
+          "website": "Somerville, NJ",
+          "startDate": "2004",
+          "endDate": "2005",
+          "summary": "In-House Technician for international wholesale business",
+          "highlights": [
+            "Cut technical and logistical overhead with open-source software alternatives, and implemented standard office protocols to streamline daily operations, such as Gaim and XMPP instant messaging in place of paper memos and e-mails",
+            "Promoted after 11 months due to innovative applications of information technology in a business environment"
+          ]
+        }
+    ]
+}

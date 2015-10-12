@@ -1,0 +1,215 @@
+{
+  "basics": {
+    "name": "Jonathan Ho",
+    "label": "Developer",
+    "picture": "http://i.imgur.com/E9LZQHi.jpg",
+    "email": "joho@joho.io",
+    "phone": "(929) 400-7843",
+    "website": "http://joho.io",
+    "summary": "Web Developer with background in Computer Science and Information Technology.  Experienced with: AngularJS application development; platform-agnostic, responsive UI/UX design; Amazon Web Services cloud computing services; and RESTful APIs. Experienced leader motivated by a passion for learning and continuous self-improvement. Likes people. Allergic to cats.",
+    "location": {
+      "address": "",
+      "postalCode": "NY",
+      "city": "New York",
+      "countryCode": "US",
+      "region": "New York"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "loljoho",
+        "url": "http://github.com/loljoho"
+      },
+      {
+        "network": "AngelList",
+        "username": "loljoho",
+        "url": "http://angel.co/loljoho"
+      },
+      {
+        "network": "Facebook",
+        "username": "loljoho",
+        "url": "http://facebook.com/loljoho"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Safe Haven Computers",
+      "position": "Technician",
+      "website": "Raritan, NJ",
+      "startDate": "2010",
+      "endDate": "2011",
+      "summary": "Technician for full-service IT company with corporate and private clientele",
+      "highlights": [
+        "Devised design specifications and oversaw assembly of custom systems as per client requirements and specifications",
+        "􏰇Provided remote and on-site technical support and diagnostic services for a variety of corporate and individual clientele"
+      ]
+    },
+    {
+      "company": "Fulgo, Inc.",
+      "position": "Systems Engineer",
+      "website": "Hillsborough, NJ",
+      "startDate": "2005",
+      "endDate": "2009",
+      "summary": "Systems Engineer and Technical Consultant for international wholesale business",
+      "highlights": [
+        "Performed ad-hoc analysis by writing PHP PDO scripts with MySQL data sets to characterise sales trends, coordinated with team members to identify targets of deficit, and presented financial strategy and logistical solutions",
+        "Eliminated user errors in daily software processes by writing AutoIt batch processing scripts with predefined input values"
+      ]
+    },
+    {
+      "company": "Fulgo, Inc.",
+      "position": "Technician",
+      "website": "Somerville, NJ",
+      "startDate": "2004",
+      "endDate": "2005",
+      "summary": "In-House Technician for international wholesale business",
+      "highlights": [
+        "Cut technical and logistical overhead with open-source software alternatives, and implemented standard office protocols to streamline daily operations, such as Gaim and XMPP instant messaging in place of paper memos and e-mails",
+        "Promoted after 11 months due to innovative applications of information technology in a business environment"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Organisation",
+      "position": "Position",
+      "website": "Website",
+      "startDate": "2000",
+      "endDate": "2001",
+      "summary": "Summary of the volunteer position",
+      "highlights": [
+        "Highlight number one",
+        "Highlight number two"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "AWS Summit - New York",
+      "area": "New York, NY",
+      "studyType": "Cloud Computing",
+      "startDate": "2015",
+      "endDate": "2015",
+      "gpa": "",
+      "courses": [
+        "AWS Lambda: Event-Driven Code in the Cloud",
+        "DevOps, Continuous Integration and Deployment on AWS",
+        "Build and Manage Your APIs with Amazon API Gateway"
+      ]
+    },
+    {
+      "institution": "Rutgers, the State University of New Jersey",
+      "area": "New Brunswick, NJ",
+      "studyType": "History",
+      "startDate": "2007",
+      "endDate": "2008",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Rutgers, the State University of New Jersey",
+      "area": "New Brunswick, NJ",
+      "studyType": "Psychology",
+      "startDate": "2010",
+      "endDate": "2010",
+      "gpa": "",
+      "courses": []
+    },
+    {
+      "institution": "Raritan Valley Community College",
+      "area": "Branchburg, NJ",
+      "studyType": "Computer Science",
+      "startDate": "2012",
+      "endDate": "2013",
+      "gpa": "",
+      "courses": [
+        "Object-Oriented Programming",
+        "Operating Systems",
+        "Computer Architecture & Assembly Language"
+      ]
+    },
+    {
+      "institution": "Raritan Valley Community College",
+      "area": "Branchburg, NJ",
+      "studyType": "Engineering",
+      "startDate": "2009",
+      "endDate": "2010",
+      "gpa": "",
+      "courses": [
+        ""
+      ]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award Title",
+      "date": "2000",
+      "awarder": "Awarder",
+      "summary": "Summary of award"
+    }
+  ],
+  "publications": [
+    {
+      "name": "poppyGP",
+      "publisher": "",
+      "releaseDate": "20012",
+      "website": "http://poppy.gq",
+      "summary": "Video stream and IRC webchat single-page application for Reddit Formula 1 racing enthusiasts’ community"
+    }
+  ],
+  "skills": [
+    {
+      "name": "HTML/CSS/JS",
+      "level": "Master",
+      "keywords": [
+        "DHTML",
+        "HTML5",
+        "HTML",
+        "CSS",
+        "CSS3",
+        "Javascript",
+        "JS",
+        "Dynamic",
+        "Front-End"
+      ]
+    },
+    {
+      "name": "JavaScript/jQuery/Ajax",
+      "level": "Master",
+      "keywords": [
+        "Javascript",
+        "jQuery",
+        "Ajax",
+        "DOM",
+        "HTTP",
+        "XML",
+        "JSON",
+        "Front-End",
+        "Back-End",
+        "API"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Language",
+      "fluency": "Fluency"
+    }
+  ],
+  "interests": [
+    {
+      "name": "Interest",
+      "keywords": [
+        "Keyword 1",
+        "Keyword 2"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Donald Draper",
+      "reference": "Employer"
+    }
+  ]
+}

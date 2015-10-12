@@ -1,0 +1,59 @@
+{
+  "projectList": [{
+    "title": "poppyGP Player",
+    "position": "Full-Stack Developer",
+    "dates": "2014 - 2015",
+    "status": "v1.0.0 (upcoming release)",
+    "link": "http://poppy.gq",
+    "source": "https://github.com/loljoho/poppyGP",
+    "summary": "",
+    "highlights": [
+      "Independently designed, developed, and deployed platform-agnostic, mobile-friendly, responsive AngularJS application with visitors from all timezones and continents",
+      "Alleviated 400% traffic spike in early stages by deploying an AWS EC2 instance, and succeded in migrating from previous webhost while maintenaning consistency of service",
+      "Configured dedicated media server and networking devices for RTMP video and audio streaming."
+    ],
+    "tags": ["AngularJS", "HTML5", "CSS3", "Sass"]
+  }, {
+    "title": "",
+    "position": "",
+    "dates": "",
+    "status": "",
+    "link": "",
+    "source": "",
+    "summary": "",
+    "highlights": [
+      "",
+      "",
+      ""
+    ],
+    "tags": ["", "", "", "", ""]
+  }, {
+    "title": "",
+    "position": "",
+    "dates": "",
+    "status": "",
+    "link": "",
+    "source": "",
+    "summary": "",
+    "highlights": [
+      "",
+      "",
+      ""
+    ],
+    "tags": ["", "", "", "", ""]
+  }, {
+    "title": "",
+    "position": "",
+    "dates": "",
+    "status": "",
+    "link": "",
+    "source": "",
+    "summary": "",
+    "highlights": [
+      "",
+      "",
+      ""
+    ],
+    "tags": ["", "", "", "", ""]
+  }]
+}
