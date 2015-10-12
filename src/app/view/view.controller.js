@@ -23,6 +23,7 @@
     function updateTitle() {
       vm.pageTitle = 'Jonathan Ho · Web Developer · New York NY';
     }
+  }
 
 
 })();

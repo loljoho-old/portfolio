@@ -1,0 +1,58 @@
+{
+    "languages": [
+        "HTML5",
+        "CSS3",
+        "JavaScript",
+        "PHP",
+        "SQL"
+    ],
+    "expertise": [{
+        "name": "AngularJS",
+        "description": "AngularJS — Superheroic JavaScript MVW Framework",
+        "link": "http://angularjs.org"
+    }, {
+        "name": "Node.js",
+        "description": "Event-driven JavaScript runtime",
+        "link": "http://nodejs.org"
+    }, {
+        "name": "Gulp.js",
+        "description": "gulp.js - the streaming build system",
+        "link": "http://gulpjs.com"
+    }, {
+        "name": "jQuery",
+        "description": "The Write Less, Do More, JavaScript Library.",
+        "link": "http://jquery.com"
+    }, {
+        "name": "Bower",
+        "description": "A package manager for the web",
+        "link": "http://bower.io"
+    }, {
+        "name": "npm",
+        "description": "Node.js JavaScript package ecosystem",
+        "link": "http://npmjs.com"
+    }, {
+        "name": "Sass",
+        "description": "Syntatically awesome stylesheets",
+        "link": "http://sass-lang.org"
+    }, {
+        "name": "Amazon Web Services",
+        "description": "Cloud computing services",
+        "link": "http://aws.amazon.com"
+    }, {
+        "name": "Express",
+        "description": "Fast, unopinionated, minimalist web framework for Node.js",
+        "link": "http://expressjs.com"
+    }, {
+        "name": "Apache HTTP Server",
+        "description": "The world's most used web server software",
+        "link": "http://httpd.apache.org"
+    }, {
+        "name": "Git",
+        "description": "Free and open source distributed version control system",
+        "link": "http://git-scm.com"
+    }, {
+        "name": "RESTful API",
+        "description": "Representational state transfer",
+        "link": "http://en.wikipedia.org/wiki/Representational_state_transfer"
+    }]
+}
