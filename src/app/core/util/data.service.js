@@ -3,10 +3,10 @@
 
   angular
     .module('johoApp')
-    .factory('dataservice', dataserviceFactory);
+    .factory('httpService', httpServiceFactory);
 
   /** @ngInject */
-  function dataserviceFactory($location, $http, $log, $q) {
+  function httpServiceFactory($location, $http, $log, $q) {
 
 
     var isPrimed = false;

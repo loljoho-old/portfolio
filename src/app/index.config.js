@@ -3,12 +3,11 @@
 
   angular
     .module('johoApp')
-    .value('config', config)
     .config(configure);
 
 
   /** @ngInject */
-  function configure($logProvider, $routeProvider, routehelperConfigProvider, toastr) {
+  function configure($logProvider, $routeProvider, toastr) { //routehelperConfigProvider,
 
     // Enable log
     $logProvider.debugEnabled(true);
@@ -22,21 +21,21 @@
 
 
     // Configure the common route provider
-    routehelperConfigProvider.config.$routeProvider = $routeProvider;
-    routehelperConfigProvider.config.docTitle = 'Jonathan Ho';
+    //routehelperConfigProvider.config.$routeProvider = $routeProvider;
+    //routehelperConfigProvider.config.docTitle = 'Jonathan Ho';
 
 
-    var resolveAlways = { /* @ngInject */
-      ready: function(dataservice) {
-        return dataservice.ready();
-      }
+    //var resolveAlways = { /* @ngInject */
+    //  ready: function(dataservice) {
+    //    return dataservice.ready();
+    //  }
       // ready: ['dataservice', function (dataservice) {
       //   return dataservice.ready();
       // }]
-    };
+    // };
 
 
-    routehelperConfigProvider.config.resolveAlways = resolveAlways;
+    // routehelperConfigProvider.config.resolveAlways = resolveAlways;
 
   }
 

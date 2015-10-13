@@ -3,18 +3,18 @@
 
   angular
     .module('johoApp')
-    .directive('acmeNavbar', acmeNavbar);
+    .directive('johoNavbar', johoNavbar);
 
   /** @ngInject */
-  function acmeNavbar() {
+  function johoNavbar() {
     var directive = {
       restrict: 'E',
       templateUrl: 'app/components/navbar/navbar.html',
-      scope: {
-          creationDate: '='
-      },
+      // scope: {
+      //   creationDate: '='
+      // },
       controller: NavbarController,
-      controllerAs: 'vm',
+      controllerAs: 'navbar',
       bindToController: true
     };
 
@@ -24,9 +24,36 @@
     function NavbarController(moment) {
       var vm = this;
 
-      // "vm.creation" is avaible by directive option "bindToController: true"
-      vm.relativeDate = moment(vm.creationDate).fromNow();
+      vm.navItems = [];
+
+      // vm.relativeDate = moment(vm.creationDate).fromNow();
+
+      activate();
+
+      function activate() {
+        getNavItems();
+      }
+
+
+
+
+      // Nav Items
+      // ------------------------------
+
+      function getNavItems() {
+        vm.navItems = [{
+          'text': 'Home',
+          'link': '/'
+        }, {
+          'text': 'Work',
+          'link': '/'
+        }, {
+          'text': 'Info',
+          'link': '/'
+        }];
+      }
+
+
     }
   }
-
 })();

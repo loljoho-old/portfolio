@@ -7,6 +7,7 @@
       'ngCookies',
       'ngTouch',
       'ngSanitize',
+      'ngResource',
       'ngRoute'
     ]);
 

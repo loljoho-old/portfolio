@@ -1,13 +1,13 @@
-<nav class="navbar">
-  <a href="https://github.com/Swiip/generator-gulp-angular">Gulp Angular</a>
+<nav class="navbar navbar-dark bg-faded" role="navigation">
 
-  <ul>
-    <li class="active"><a ng-href="#">Home</a></li>
-    <li><a ng-href="#">About</a></li>
-    <li><a ng-href="#">Contact</a></li>
+  <a class="navbar-brand" href="/">
+    <img class="logo" src="assets/images/icon.png" alt="Jonathan Ho · Web Developer · New York NY">
+  </a>
+
+  <ul class="nav">
+    <li class="nav-item" ng-repeat="item in navbar.navItems">
+      <a class="nav-link" ng-href="{{ item.link }}">{{ item.text }}</a>
+    </li>
   </ul>
 
-  <ul class="acme-navbar-text">
-    <li>Application was created {{ vm.relativeDate }}.</li>
-  </ul>
 </nav>
