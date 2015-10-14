@@ -1,0 +1,15 @@
+(function() {
+  'use strict';
+
+  describe('controllers', function(){
+
+    beforeEach(module('johoApp'));
+
+    it('should define more than 5 awesome things', inject(function($controller) {
+      var vm = $controller('SkillsController');
+
+      expect(angular.isArray(vm.stackList)).toBeTruthy();
+      expect(vm.stackList.length >= 12).toBeTruthy();
+    }));
+  });
+})();

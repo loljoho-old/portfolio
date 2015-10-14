@@ -1,0 +1,34 @@
+<!-- Section
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<section class="skills">
+
+
+
+
+  <!-- Solution Stack Cards
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+  <div class="card-group">
+
+    <!-- BEGIN: ng-repeat -->
+    <div class="card" ng-repeat="tech in main.itemList">
+      <img class="card-img-top" alt="tech.name">
+      <div class="card-block">
+        <h4 class="card-title">{{ tech.name }}</h4>
+        <p class="card-text">{{ tech.description }}</p>
+        <a ng-href="tech.link" class="btn btn-primary">Site</a>
+      </div>
+    </div>
+    <!-- ENDOF: ng-repeat -->
+
+  </div>
+
+  <!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+</section>
+
+<!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
