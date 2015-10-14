@@ -60,34 +60,11 @@
 
 
 
-<!-- Site Header
+<!-- Site Navbar
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<header>
-
-<!--
-  <nav class="navbar navbar-dark bg-faded" role="navigation">
-    <a class="navbar-brand" href="/">
-      <img class="logo" src="assets/images/icon.png" alt="Jonathan Ho · Web Developer · New York NY">
-    </a>
-    <ul class="nav">
-      <li class="nav-item" ng-repeat="item in vm.navItems">
-        <a class="nav-link" ng-href="{{ item.link }}">{{ item.text }}</a>
-      </li>
-    </ul>
-    <ul class="nav pull-right">
-      <li class="nav-item" ng-repeat="drive in vm.cvDrives">
-        <a class="nav-link" ng-href="{{ drive.link }}">{{ drive.text }}</a>
-      </li>
-    </ul>
-  </nav>
--->
-  <joho-navbar></joho-navbar>
-
-  <joho-subnav></joho-subnav>
-
-
-</header>
+<joho-navbar>
+</joho-navbar>
 
 <!--–––––––––––––––––––––––––––––––––––––––––––––– -->
 
@@ -101,9 +78,9 @@
 <!-- Site Main
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-<main class="container-fluid" ng-view>
+<div class="main" ng-view>
 
-</main>
+</div>
 
 <!--–––––––––––––––––––––––––––––––––––––––––––––– -->
 

@@ -45,7 +45,7 @@
         'logo': 'yeoman/protractor.png'
       },
       {
-        'title': 'Sass (Node)',
+        'title': 'Sass',
         'url': 'https://github.com/sass/node-sass',
         'description': 'Node.js binding to libsass, the C version of the popular stylesheet preprocessor, Sass.',
         'logo': 'yeoman/node-sass.png'

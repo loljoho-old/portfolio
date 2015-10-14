@@ -1,0 +1,148 @@
+// ------------------------------
+//  Masthead Style
+// ------------------------------
+
+
+
+
+.bd-masthead { 
+  color: $white-solid;
+
+  margin-bottom: 1.00rem;
+
+  padding-top: 3.00rem;
+  padding-bottom: 2.00rem;
+  padding-left: ($grid-gutter-width / 4);
+  padding-right: ($grid-gutter-width / 4);
+  
+  position: relative;
+  @include gradient-directional($start-color: darken(desaturate($brand-primary, 50%), 15%), $end-color: darken(desaturate($brand-info, 50%), 5%), $deg: 40deg);
+
+
+  //  Masthead Text
+  // ------------------------------
+
+  h1 {
+    font-weight: 400;
+    line-height: 1;
+    text-align: right;
+  }
+
+  .lead {
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: $white-opaque;
+    &:first-child {
+      color: $brand-danger;
+      padding-right: 0.15rem;
+      margin-bottom: 0.00rem;
+      text-align: right;
+      &:after {
+        content: " ";//· ";
+      }
+      + .lead {
+        font-weight: 400;
+        margin-bottom: 0.25rem;
+        padding-left: 0.15rem;
+        text-align: left;
+        &:before {
+          content: "New York";
+        }
+      }
+    }
+  }
+
+
+
+
+  // ------------------------------
+  //  Responsive Styles
+  // ------------------------------
+  
+  @include media-breakpoint-up(sm) {
+    padding-top: 4.00rem;
+    padding-bottom: 2.00rem;
+
+    margin-bottom: 1.50rem;
+
+    h1 {
+      text-align: center;
+    }
+
+    .lead {
+      font-size: 1.25rem;
+      margin-bottom: 1.00rem;
+      text-align: center;
+      &:first-child {
+        padding-right: 0.25rem;
+        margin-bottom: 0.00rem;
+        + .lead {
+          &:before {
+            content: "New York NY";
+          }
+        }
+      }
+    }
+    .btn {
+      width: auto;
+    }
+
+  }
+
+  @include media-breakpoint-up(md) {
+    padding-bottom: 4.00rem;
+
+    .header {
+      margin-bottom: 4.00rem;
+    }
+
+    h1 {
+      font-size: 4.00rem;
+    }
+
+    .lead {
+      font-size: 1.50rem;
+    }
+
+  }
+
+  @include media-breakpoint-up(lg) {
+    .lead {
+      font-size: 2.00rem;
+    }
+  }
+
+}
+
+
+
+
+// ------------------------------
+//  Malarkey Cursor
+// ------------------------------
+
+.malarkey {
+  text-transform: capitalize;
+  color: #cb3837;
+
+  &:after {
+    animation: cursor-blink 0.4s linear infinite;
+    content: "|";
+    color: #cb3837;
+  }
+}
+
+@keyframes cursor-blink {
+  1% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  60% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}

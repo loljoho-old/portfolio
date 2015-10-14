@@ -2,13 +2,22 @@
 //  Responsive Variables
 // ------------------------------
 
-$viewport-xs: 480px;
-$viewport-sm: 640px;
-$viewport-md: 800px;
-$viewport-lg: 960px;
-$viewport-xl: 1200px;
+$viewport-xs:     480px;
+$viewport-sm:     640px;
+$viewport-md:     800px;
+$viewport-lg:     960px;
+$viewport-xl:     1200px;
 
 // ------------------------------
+
+$white-opaque:    rgba(255, 255, 255, 0.87);
+$white-offwhite:  rgba(204, 204, 204, 1.00);
+$white-solid:     rgba(255, 255, 255, 1.00);
+$black-opaque:    rgba(  0,   0,   0, 0.87);
+$black-offblack:  rgba( 52,  52,  52, 1.00);
+$black-solid:     rgba(  0,   0,   0, 1.00);
+
+$navbar-height:   60px;
 
 
 
@@ -22,32 +31,10 @@ $viewport-xl: 1200px;
 @import 'core/style/utilities';       // Custom Utilities
 
 html, body {
-  height: 100%;
+  min-height: 100%;
 }
 body {
   overflow-x: hidden;
-  overflow-y: hidden;
-}
-.navbar-brand {
-  >.logo {
-    height: 72px;
-    width: auto;
-  }
-}
-header {
-  .navbar {
-    margin-bottom: 0;
-  }
-  .breadcrumb {
-    margin-bottom: 0;
-    margin-top: 0;
-  }
-}
-main {
-  height: 100%;
-  max-height: 100%;
-  overflow-x: hidden;
-  overflow-y: scroll;
 }
 
 //@import 'core/style/typography';

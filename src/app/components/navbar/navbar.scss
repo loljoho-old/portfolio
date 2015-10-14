@@ -1,0 +1,55 @@
+// ------------------------------
+//  Navbar Styles
+// ------------------------------
+
+
+
+
+.navbar {
+  background-color: $black-solid;
+  height: $navbar-height;
+  padding-left: 7.00rem;
+  margin-bottom: 0.00rem;
+
+
+
+  @include media-breakpoint-down(xs) {
+    .collapse {
+      &.in {
+        min-height: auto;
+        .navbar-nav {
+          .nav-link {
+            display: block;
+            padding-top: .425rem;
+            padding-bottom: .425rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+.navbar-brand {
+  position: absolute;
+  top: 9px;
+  left: 18px;
+  >.logo {
+    max-height: 80px;
+  }
+}
+
+.nav {
+  .nav-item {
+    .nav-link {
+      color: $white-opaque;
+      &:hover,
+      &:active
+      &:focus {
+        color: $white-solid;
+      }
+      &.visited {
+        color: $white-offwhite;
+      }
+    }
+  }
+}

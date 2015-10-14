@@ -45,9 +45,10 @@ $colors: (
 
 $brand-primary:     map-get($colors, indigo);
 $brand-success:     map-get($colors, green);
-$brand-info:        map-get($colors, blue);
-$brand-warning:     map-get($colors, yellow);
+$brand-info:        map-get($colors, purple);
+$brand-warning:     map-get($colors, orange);
 $brand-danger:      map-get($colors, red);
+$brand-alert:       map-get($colors, yellow);
 
 $gray:              desaturate($brand-primary, 50);
 $gray-dark:         darken($gray, 14);

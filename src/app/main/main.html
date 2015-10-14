@@ -1,26 +1,92 @@
+<!-- Masthead - app/components/masthead/
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
 
-  <div class="jumbotron">
-    <h1>'Allo, 'Allo!</h1>
-    <p class="lead">
-      <img src="assets/images/yeoman.png" alt="I'm Yeoman"><br>
-      Always a pleasure scaffolding your apps.
-    </p>
-    <p class="animated infinite" ng-class="main.classAnimation">
-      <a class="btn btn-lg btn-success" ng-click="main.showToastr()">Splendid Toastr</a>
-    </p>
-    <p>
-      With ♥ thanks to the contributions of<acme-malarkey extra-values="['Yeoman', 'Gulp', 'Angular']" />
-    </p>
+<joho-masthead>
+  <h1>
+    Jonathan Ho
+  </h1>
+
+  <div class="row">
+    <p class="col-xs-8 col-sm-6 lead joho-lead-text" initial-text="'Web Developer'"></p>
+    <p class="col-xs-4 col-sm-6 lead"></p>
   </div>
+</joho-masthead>
 
-  <div class="col" ng-repeat="awesomeThing in main.awesomeThings | orderBy:'rank'">
-    <div class="thumbnail">
-      <img class="pull-right" ng-src="assets/images/{{ awesomeThing.logo }}" alt="{{ awesomeThing.title }}">
-      <div class="caption">
-        <h3>{{ awesomeThing.title }}</h3>
-        <p>{{ awesomeThing.description }}</p>
-        <p><a ng-href="{{ awesomeThing.url }}">{{ awesomeThing.url }}</a></p>
+<!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+
+
+
+
+<!-- Solution Stack app/components/expertise/
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<section class="content-section" id="expertise">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4" ng-repeat="awesomeThing in main.awesomeThings | orderBy:'rank'">
+        <div class="thumbnail">
+          <img class="pull-right" ng-src="assets/images/{{ awesomeThing.logo }}" alt="{{ awesomeThing.title }}">
+          <div class="caption">
+            <h3>{{ awesomeThing.title }}</h3>
+            <p>{{ awesomeThing.description }}</p>
+            <p><a ng-href="{{ awesomeThing.url }}">{{ awesomeThing.url }}</a></p>
+          </div>
+        </div>
       </div>
     </div>
   </div>
+</section>
 
+<!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+
+
+
+
+<!-- Showcase - app/components/projects/
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<section class="content-section" id="showcase">
+
+</section>
+
+<!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+
+
+
+
+<!-- Biography - app/components/about/
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<section class="content-section" id="about">
+
+</section>
+
+<!-- ––––––––––––––––––––––––––––––––––––––––––––– -->
+
+
+
+
+
+
+
+
+<!-- Footer
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+
+<footer>
+
+</footer>
+
+<!-- ––––––––––––––––––––––––––––––––––––––––––––– -->

@@ -1,13 +1,18 @@
-<nav class="navbar navbar-dark bg-faded" role="navigation">
+<nav class="navbar navbar-fixed-top navbar-dark" role="navigation">
+  <button class="navbar-toggler hidden-sm-up pull-right" type="button" ng-click="nav.toggleCollapse()">
+<!--data-toggle="collapse" data-target="#collapsedNavbar">-->
+    &#9776;
+  </button>
 
   <a class="navbar-brand" href="/">
     <img class="logo" src="assets/images/icon.png" alt="Jonathan Ho · Web Developer · New York NY">
   </a>
 
-  <ul class="nav">
-    <li class="nav-item" ng-repeat="item in navbar.navItems">
-      <a class="nav-link" ng-href="{{ item.link }}">{{ item.text }}</a>
-    </li>
-  </ul>
-
+  <div class="collapse navbar-toggleable-xs" id="collapsedNavbar" ng-class="{ 'in' : !nav.isCollapsed }">
+    <ul class="nav navbar-nav">
+      <li class="nav-item" ng-repeta="item in navbar.navItems">
+        <a class="nav-link" ng-href="{{ item.link }}">{{ item.text }}</a>
+      </li>
+    </ul>
+  </div>
 </nav>

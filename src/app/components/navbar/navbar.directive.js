@@ -9,51 +9,18 @@
   function johoNavbar() {
     var directive = {
       restrict: 'E',
+      replace: true,
       templateUrl: 'app/components/navbar/navbar.html',
       // scope: {
       //   creationDate: '='
       // },
-      controller: NavbarController,
-      controllerAs: 'navbar',
+      controller: 'NavbarController',
+      controllerAs: 'nav',
       bindToController: true
     };
 
     return directive;
 
-    /** @ngInject */
-    function NavbarController(moment) {
-      var vm = this;
-
-      vm.navItems = [];
-
-      // vm.relativeDate = moment(vm.creationDate).fromNow();
-
-      activate();
-
-      function activate() {
-        getNavItems();
-      }
-
-
-
-
-      // Nav Items
-      // ------------------------------
-
-      function getNavItems() {
-        vm.navItems = [{
-          'text': 'Home',
-          'link': '/'
-        }, {
-          'text': 'Work',
-          'link': '/'
-        }, {
-          'text': 'Info',
-          'link': '/'
-        }];
-      }
-
-
-    }
+    
   }
 })();
