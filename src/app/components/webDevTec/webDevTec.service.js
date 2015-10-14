@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-      .module('johoApp')
+      .module('johoApp.components')
       .service('webDevTec', webDevTec);
 
   /** @ngInject */

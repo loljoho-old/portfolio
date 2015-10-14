@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('johoApp')
+    .module('johoApp.core')
     .provider('routehelperConfig', routehelperConfig)
     .factory('routehelper', routehelper);
 

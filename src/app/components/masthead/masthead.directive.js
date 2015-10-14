@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('johoApp')
+    .module('johoApp.components')
     .directive('johoMasthead', johoMastheadDirective);
 
   /** @ngInject */

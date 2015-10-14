@@ -2,7 +2,7 @@
   'use strict';
 
   angular
-    .module('johoApp')
+    .module('johoApp.core')
     .factory('dataservice', dataserviceFactory);
 
   /** @ngInject */

@@ -81,14 +81,65 @@ __Development__
 Application Structure
 ---------------------
 
+__Proposed Application Structure__
+
 ```
 src/
 ├── app/
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   └── 
+│   ├── components/
+│   │   ├── masthead/
+│   │   │   ├── leadText.directive.js
+│   │   │   ├── leadText.service.js
+│   │   │   ├── masthead.directive.js
+│   │   │   ├── masthead.html
+│   │   │   └── masthead.scss
+│   │   ├── navbar/
+│   │   │   ├── navbar.controller.js
+│   │   │   ├── navbar.directive.js
+│   │   │   ├── navbar.html
+│   │   │   └── navbar.scss
+│   │   ├── webDevTec/
+│   │   │   └── webDevTec.service.js
+│   │   └── components.module.js
+│   ├── core/
+│   │   ├── config/
+│   │   │   ├── configure.js
+│   │   │   ├── constants.js
+│   │   │   └── routes.js
+│   │   ├── style/
+│   │   │   ├── _animations.scss
+│   │   │   ├── _layout.scss
+│   │   │   ├── _structure.scss
+│   │   │   ├── _typography.scss
+│   │   │   ├── _utilities.scss
+│   │   │   └── _variables.scss
+│   │   ├── util/
+│   │   │   ├── dataservice.js
+│   │   │   ├── exception.js
+│   │   │   ├── logger.js
+│   │   │   └── router.js
+│   │   └── core.module.js
+│   ├── sections/
+│   │   ├── about/
+│   │   │   ├── about.controller.js
+│   │   │   ├── about.controller.spec.js
+│   │   │   ├── about.html
+│   │   │   └── about.scss
+│   │   ├── expertise/
+│   │   │   ├── expertise.controller.js
+│   │   │   ├── expertise.controller.spec.js
+│   │   │   ├── expertise.html
+│   │   │   └── expertise.scss
+│   │   ├── projects/
+│   │   │   ├── projects.controller.js
+│   │   │   ├── projects.controller.spec.js
+│   │   │   ├── projects.html
+│   │   │   └── projects.scss
+│   │   └── sections.module.js
+│   ├── main/
+│   ├── view/
+│   ├── index.module.js
+│   └── index.scss
 ├── assets/
 │   ├── data/
 │   │   ├── 
