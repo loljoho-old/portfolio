@@ -8,10 +8,17 @@
   /** @ngInject */
   function dataserviceFactory($resource) {
 
-    var url = 'assets/data/skills.json';
-    var resource = $resource(url);
+    var url = 'assets/data/:resource.json';
 
-    return resource;
+    var paramDefaults = {
+      resource  : '@resource'
+    };
+
+    var actions = {
+
+    };
+
+    return $resource(url, paramDefaults, actions);
 
   }
 
