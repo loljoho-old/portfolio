@@ -1,0 +1,242 @@
+// ------------------------------
+//  Content Section
+// ------------------------------
+
+.content-section {
+  color: $black-solid;
+  padding-top: 1.50rem;
+  padding-bottom: 1.00rem;
+  font-size: 1.00rem;
+  line-height: 1.5;
+  text-align: center;
+  border-top: 1px solid #eee;
+
+  .lead {
+    margin-right: auto;
+    margin-bottom: 2rem;
+    margin-left: auto;
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  @include media-breakpoint-up(sm) {
+    // text-align: left;
+  }
+
+  @include media-breakpoint-up(md) {
+    .col-sm-6:first-child {
+      // padding-right: ($grid-gutter-width * 1.5);
+    };
+    .col-sm-6:last-child {
+      // padding-left: ($grid-gutter-width * 1.5);
+    }
+  }
+}
+
+.content-section-title {
+  // margin-bottom: .5rem;
+  // font-size: 2rem;
+  // font-weight: normal;
+  // color: #333;
+  // text-align: center;
+}
+
+.half-rule {
+  // width: 6rem;
+  // margin: 2.5rem auto;
+
+  @include media-breakpoint-up(sm) {
+    // margin-right: 0;
+    // margin-left: 0;
+  }
+}
+.content-section h4 {
+  // margin-top: 1rem;
+  // margin-bottom: .5rem;
+  // font-weight: normal;
+  // color: #333;
+}
+.content-section-img {
+  // display: block;
+  // margin-bottom: 1.25rem;
+  // color: #333;
+}
+.content-section-img:hover {
+  // color: $brand-primary;
+  // text-decoration: none;
+}
+.content-section-img img {
+  // display: block;
+  // margin-bottom: 1rem;
+}
+
+@media (min-width: 480px) {
+  .content-section .img-fluid {
+    // margin-top: 2rem;
+  }
+}
+@media (min-width: 768px) {
+  .content-section {
+    // padding-top: 6rem;
+    // padding-bottom: 6rem;
+  }
+  .content-section-title {
+    // font-size: 2.5rem;
+
+    + .lead {
+      // font-size: 1.5rem;
+    }
+  }
+  .content-section .lead {
+    // max-width: 80%;
+  }
+  .content-section .img-fluid {
+    // margin-top: 0;
+  }
+}
+
+// ------------------------------
+
+
+
+
+// ------------------------------
+//  Section Header
+// ------------------------------
+
+.section-header {
+
+  margin-bottom: 1.00rem;
+  margin-left: 0;
+  margin-right: 0;
+
+  padding-top: 1.50rem;
+  padding-bottom: 1.00rem;
+  padding-left: ($grid-gutter-width / 4);
+  padding-right: ($grid-gutter-width / 4);
+
+  position: relative;
+
+  text-align: left;
+
+
+
+  //  Header
+  // ------------------------------
+
+  .section-header__title {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1;
+    text-align: left;
+  }
+
+  .section-header__subtitle {
+    font-weight: 300;
+    font-size: 1.25rem;
+    color: $black-opaque;
+    text-align: left;
+    &:first-child {
+      // color: $brand-danger;
+      // padding-right: 0.15rem;
+      // margin-bottom: 0.00rem;
+      // text-align: right;
+      &:after {
+        // content: " ";//· ";
+      }
+      + .section-header__subtitle {
+        // font-weight: 400;
+        // margin-bottom: 0.25rem;
+        // padding-left: 0.15rem;
+      }
+    }
+  }
+
+  .section-header__icon {
+    display: inline-block;
+    svg {
+      height: 1.00rem;
+      margin-right: 1.00rem;
+      width: auto;
+    }
+  }
+
+
+
+
+  // ------------------------------
+  //  Responsive Styles
+  // ------------------------------
+
+  @include media-breakpoint-up(sm) {
+    padding-top: 3.00rem;
+    padding-bottom: 2.00rem;
+
+    margin-bottom: 1.50rem;
+
+    .section-header__title {
+
+    }
+
+    .section-header__subtitle {
+      font-size: 1.25rem;
+      margin-bottom: 1.00rem;
+
+      &:first-child {
+        padding-right: 0.25rem;
+        margin-bottom: 0.00rem;
+        + .section-header__subtitle {
+          &:before {
+            //content: "New York NY";
+          }
+        }
+      }
+    }
+
+    .section-header__icon {
+    display: inline-block;
+      svg {
+        height: 1.25rem;
+        width: auto;
+      }
+    }
+
+    .btn {
+      width: auto;
+    }
+
+  }
+
+  @include media-breakpoint-up(md) {
+    padding-bottom: 4.00rem;
+
+    .section-header__title {
+      margin-bottom: 4.00rem;
+    }
+
+    .section-header__title {
+      font-size: 4.00rem;
+    }
+
+    .section-header__subtitle {
+      font-size: 1.50rem;
+    }
+
+    .section-header__icon {
+      display: inline-block;
+      svg {
+        height: 1.33rem;
+        width: auto;
+      }
+    }
+
+
+  }
+
+  @include media-breakpoint-up(lg) {
+    .section-header__subtitle {
+      font-size: 2.00rem;
+    }
+  }
+
+}

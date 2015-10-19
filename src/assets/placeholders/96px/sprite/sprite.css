@@ -1,0 +1,125 @@
+.placeholder-icons {
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-image: url(sprite.svg);
+}
+.car {
+	width: 96px;
+	height: 96px;
+	background-position: 0 0;
+}
+.truck {
+	width: 96px;
+	height: 96px;
+	background-position: -112px 0;
+}
+.bus {
+	width: 99px;
+	height: 96px;
+	background-position: -224px 0;
+}
+.bike {
+	width: 96px;
+	height: 96px;
+	background-position: -336px 0;
+}
+.camera {
+	width: 126px;
+	height: 96px;
+	background-position: -448px 0;
+}
+.telescope {
+	width: 105px;
+	height: 96px;
+	background-position: -560px 0;
+}
+.beaker {
+	width: 81px;
+	height: 96px;
+	background-position: 0 -112px;
+}
+.globe {
+	width: 75px;
+	height: 96px;
+	background-position: -112px -112px;
+}
+.genius {
+	width: 90px;
+	height: 96px;
+	background-position: -224px -112px;
+}
+.food {
+	width: 96px;
+	height: 96px;
+	background-position: -336px -112px;
+}
+.shop {
+	width: 96px;
+	height: 96px;
+	background-position: -448px -112px;
+}
+.truck2 {
+	width: 96px;
+	height: 96px;
+	background-position: -560px -112px;
+}
+.server {
+	width: 96px;
+	height: 96px;
+	background-position: 0 -224px;
+}
+.layers {
+	width: 96px;
+	height: 96px;
+	background-position: -112px -224px;
+}
+.box {
+	width: 96px;
+	height: 96px;
+	background-position: -224px -224px;
+}
+.snowflake {
+	width: 96px;
+	height: 96px;
+	background-position: 0 -336px;
+}
+.lightning {
+	width: 96px;
+	height: 96px;
+	background-position: -112px -336px;
+}
+.droplet {
+	width: 96px;
+	height: 96px;
+	background-position: -224px -336px;
+}
+.weather {
+	width: 96px;
+	height: 96px;
+	background-position: 0 -448px;
+}
+.snowy5 {
+	width: 96px;
+	height: 96px;
+	background-position: -112px -448px;
+}
+.droplet2 {
+	width: 96px;
+	height: 96px;
+	background-position: -224px -448px;
+}
+.leaf {
+	width: 96px;
+	height: 96px;
+	background-position: -336px -448px;
+}
+.fire {
+	width: 96px;
+	height: 96px;
+	background-position: -448px -448px;
+}
+.power {
+	width: 96px;
+	height: 96px;
+	background-position: -560px -448px;
+}

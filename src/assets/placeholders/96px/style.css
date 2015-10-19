@@ -1,0 +1,38 @@
+.placeholder-icons {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	fill: currentColor;
+}
+
+/* =======================================================================================
+Example showing how to change the color/size of the icons:
+.name {
+	font-size: 32px; // works because "width" & "height" were set using em units
+	color: red; // works for single-colored icons, because "fill" was set to "currentColor"
+}
+======================================================================================== */
+
+.bus {
+	width: 1.03125em;
+}
+
+.camera {
+	width: 1.3125em;
+}
+
+.telescope {
+	width: 1.09375em;
+}
+
+.beaker {
+	width: 0.84375em;
+}
+
+.globe {
+	width: 0.78125em;
+}
+
+.genius {
+	width: 0.9375em;
+}
