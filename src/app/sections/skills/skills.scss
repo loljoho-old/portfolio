@@ -1,0 +1,21 @@
+.skills {
+
+  .card {
+    //height: 100%;
+    box-sizing: border-box;
+  }
+
+  [class^="col-"], div[class*=" col-"] {
+    //height: 100%;
+  }
+
+  .card {
+    .card-img-top.img-responsive {
+      border: 1px solid $brand-info;
+      height: 120px;
+      max-width: 75%;
+      margin: 0 auto;
+    }
+  }
+
+}

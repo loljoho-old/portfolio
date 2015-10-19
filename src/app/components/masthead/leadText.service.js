@@ -21,11 +21,11 @@
       }
     }
 
-    for(var i = data.length - 1; i > 0; i--) {
-      var j = Math.floor(Math.random() * (i + 1));
-      var temp = data[i];
-      data[i] = data[j];
-      data[j] = temp;
+    for(var k = data.length - 1; k > 0; k--) {
+      var l = Math.floor(Math.random() * (k + 1));
+      var temp = data[k];
+      data[k] = data[l];
+      data[l] = temp;
     }
 
     function getLeadText() {

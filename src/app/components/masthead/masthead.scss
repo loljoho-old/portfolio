@@ -5,16 +5,16 @@
 
 
 
-.bd-masthead { 
+.joho-masthead {
   color: $white-solid;
 
   margin-bottom: 1.00rem;
 
-  padding-top: 3.00rem;
+  padding-top: 2.00rem;
   padding-bottom: 2.00rem;
   padding-left: ($grid-gutter-width / 4);
   padding-right: ($grid-gutter-width / 4);
-  
+
   position: relative;
   @include gradient-directional($start-color: darken(desaturate($brand-primary, 50%), 15%), $end-color: darken(desaturate($brand-info, 50%), 5%), $deg: 40deg);
 
@@ -58,9 +58,9 @@
   // ------------------------------
   //  Responsive Styles
   // ------------------------------
-  
+
   @include media-breakpoint-up(sm) {
-    padding-top: 4.00rem;
+    padding-top: 3.00rem;
     padding-bottom: 2.00rem;
 
     margin-bottom: 1.50rem;
@@ -144,5 +144,34 @@
   }
   100% {
     opacity: 1;
+  }
+}
+
+
+
+
+// ------------------------------
+//  Logo Image
+// ------------------------------
+
+.joho-icon {
+  display: block;
+  // width: 9rem;
+  // height: 9rem;
+  // font-size: 6.5rem;
+  // line-height: 9rem;
+  // color: #fff;
+  // text-align: center;
+  // cursor: default;
+  // background-color: $bd-purple;
+  // border-radius: 15%;
+
+  &.inverse {
+    // color: $bd-purple;
+    // background-color: #fff;
+  }
+  &.outline {
+    // background-color: transparent;
+    // border: 1px solid $bd-purple-light;
   }
 }
