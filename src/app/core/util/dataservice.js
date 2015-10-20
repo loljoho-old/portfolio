@@ -15,7 +15,6 @@
     };
 
     var actions = {
-
     };
 
     return $resource(url, paramDefaults, actions);
