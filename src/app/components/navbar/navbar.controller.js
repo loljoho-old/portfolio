@@ -35,11 +35,14 @@
         'text': 'Home',
         'link': '/'
       }, {
-        'text': 'Work',
-        'link': '/'
+        'text': 'Skills',
+        'link': '/skills'
       }, {
-        'text': 'Info',
-        'link': '/'
+        'text': 'Work',
+        'link': '/work'
+      }, {
+        'text': 'About',
+        'link': '/about'
       }];
     }
 

@@ -9,14 +9,14 @@
   function routeConfig($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
-        templateUrl   : 'app/sections/main/main.html',
-        controller    : 'MainController',
-        controllerAs  : 'main'
+        templateUrl   : 'app/sections/home/home.html',
+        controller    : 'HomeController',
+        controllerAs  : 'home'
       })
       .when('/skills', {
         templateUrl   : 'app/sections/skills/skills.html',
         controller    : 'SkillsController',
-        controllerAs  : 'main'
+        controllerAs  : 'skills'
         //resolve: {
         //  /** @ngInject */
         //  data: function($q, $log, dataservice) {
