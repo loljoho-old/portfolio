@@ -6,7 +6,7 @@
     .config(routeConfig);
 
   /** @ngInject */
-  function routeConfig($routeProvider) {
+  function routeConfig($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
         templateUrl   : 'app/sections/skills/skills.html',
@@ -39,6 +39,12 @@
       .otherwise({
         redirectTo: '/'
       });
-  }
+
+      // HTML5 History API
+      $locationProvider.html5Mode({
+        enabled: true,
+        requireBase: false
+      });
+    }
 
 })();
