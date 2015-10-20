@@ -9,6 +9,11 @@
   function routeConfig($routeProvider, $locationProvider) {
     $routeProvider
       .when('/', {
+        templateUrl   : 'app/sections/main/main.html',
+        controller    : 'MainController',
+        controllerAs  : 'main'
+      })
+      .when('/skills', {
         templateUrl   : 'app/sections/skills/skills.html',
         controller    : 'SkillsController',
         controllerAs  : 'main'
@@ -20,11 +25,6 @@
         //    return $q.all(response.$promise);
         //  }
         //}
-      })
-      .when('/main', {
-        templateUrl   : 'app/sections/main/main.html',
-        controller    : 'MainController',
-        controllerAs  : 'main'
       })
       .when('/work', {
         templateUrl   : 'app/sections/work/work.html',
