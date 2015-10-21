@@ -1,7 +1,9 @@
 Portfolio
 =========
 
-Portfolio Web Application for Jonathan Ho built in NYC with AngularJS
+Portfolio Web Application for Joho (Jonathan Ho)
+
+_Made in NYC_
 
 
 
@@ -31,7 +33,6 @@ __Design & Graphics__
 
  - __Adobe Photoshop__ and __Illustrator__
  - __Straight Edge__ and __5" x 8" Quad-Ruled Pad__ 
- - __
 
 
 __Development Environment__
