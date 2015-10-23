@@ -1,11 +1,7 @@
 Portfolio
 =========
 
-Portfolio Web Application for Joho (Jonathan Ho)
-
-_Made in NYC_
-
-
+Résumé & Curriculum Vitae Web Application by Jonathan Ho
 
 
 Overview
@@ -32,7 +28,8 @@ __Front-End Development__
 __Design & Graphics__
 
  - __Adobe Photoshop__ and __Illustrator__
- - __Straight Edge__ and __5" x 8" Quad-Ruled Pad__ 
+ - __Straight Edge__ and __5" x 8" Quad-Ruled Pad__
+ - __
 
 
 __Development Environment__
@@ -41,7 +38,8 @@ __Development Environment__
  - __Bower__ front-end dependency manager
  - __npm__ development tool management
  - __Gulp.js__ task automation and build system
- - __Git__ and __GitHub__ versioning and workflow
+ - __Git__ and __GitHub__ version control
+ - __ZenHub__ agile project management inside GitHub
 
 
 __Server & Infrastructure__
@@ -65,7 +63,7 @@ __Tools & Software__
 __Build__
 
  - __Bower__ front-end dependency manager
- - __npm__ 
+ - __npm__
 
 
 __Development__
@@ -82,32 +80,122 @@ __Development__
 Application Structure
 ---------------------
 
+__Proposed Modular Structure__
+
 ```
 src/
 ├── app/
-│   ├── 
-│   ├── 
-│   ├── 
-│   ├── 
-│   └── 
+│   ├── components/                   --> Component Directives
+│   │   ├──
+│   │   │   ├──
+│   │   │   ├──
+│   │   │   ├──
+│   │   │   └──
+│   │   ├── collapse/                 --> Collapsible Elements
+│   │   │   ├──
+│   │   │   └──
+│   │   ├── featurette/               --> Featurette Element
+│   │   │   ├──
+│   │   │   └──
+│   │   ├── masthead/                 --> Masthead Element
+│   │   │   ├──
+│   │   │   └──
+│   │   ├── navbar/                   --> Navigation Bar
+│   │   │   ├──
+│   │   │   └──
+│   │   ├── progress/                 --> Progress Spinner/Bar
+│   │   │   ├──
+│   │   │   └──
+│   │   ├── tiles/                    --> Card-Style Tiles
+│   │   │   ├──
+│   │   │   └──
+│   │   └── components.module.js
+│   ├── core/                         --> Core/Common Module
+│   │   ├── style/
+│   │   │   ├── _animations.scss
+│   │   │   ├── _layout.scss
+│   │   │   ├── _structure.scss
+│   │   │   ├── _typography.scss
+│   │   │   ├── _utilities.scss
+│   │   │   └── _variables.scss
+│   │   ├── util/
+│   │   │   ├── dataservice.js
+│   │   │   ├── errorhandler.js
+│   │   │   ├── logger.js
+│   │   │   └── routehelper.js
+│   │   ├── core.config.js
+│   │   ├── core.constants.js
+│   │   ├── core.routes.js
+│   │   ├── core.run.js
+│   │   └── core.module.js
+│   ├── sections/                       --> Site Sections
+│   │   ├── home/
+│   │   │   ├──
+│   │   │   ├──
+│   │   │   ├──
+│   │   │   └──
+│   │   ├── skills/
+│   │   │   ├──
+│   │   │   ├──
+│   │   │   ├──
+│   │   │   └──
+│   │   ├── work/
+│   │   │   ├──
+│   │   │   ├──
+│   │   │   ├──
+│   │   │   └──
+│   │   ├── about/
+│   │   │   ├──
+│   │   │   ├──
+│   │   │   ├──
+│   │   │   └──
+│   │   └── sections.module.js
+│   ├── view/                           --> View Layout Elements
+│   │   ├── header/
+│   │   │   ├──
+│   │   │   ├──
+│   │   │   └──
+│   │   ├── content/
+│   │   │   ├──
+│   │   │   ├──
+│   │   │   └──
+│   │   ├── footer/
+│   │   │   ├──
+│   │   │   ├──
+│   │   │   └──
+│   │   ├── view.controller.js
+│   │   └── view.module.js
+│   ├── index.scss
+│   └── index.module.js
 ├── assets/
 │   ├── data/
-│   │   ├── 
-│   │   ├── 
-│   │   └── 
+│   │   ├── site/
+│   │   │   ├── sections.json
+│   │   │   ├──
+│   │   │   ├──
+│   │   │   ├──
+│   │   │   ├──
+│   │   │   └──
+│   │   ├──
+│   │   │   ├──
+│   │   │   └──
+│   │   ├──
+│   │   ├──
+│   │   ├──
+│   │   └──
 │   ├── icons/
-│   │   ├── 
-│   │   ├── 
-│   │   └── 
+│   │   ├──
+│   │   ├──
+│   │   └──
 │   ├── images/
-│   │   ├── 
-│   │   ├── 
-│   │   └── 
-│   └── 
+│   │   ├──
+│   │   ├──
+│   │   └──
+│   └──
 ├── index.html
-├── 
-├── 
-└── 
+├──
+├──
+└──
 ```
 
 

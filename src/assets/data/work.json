@@ -1,0 +1,15 @@
+{
+  "projects": [{
+    "title": "poppyGP-player",
+    "description": "Responsive, platform-agnostic, single-page video player web application with RTMP stream for international online motor racing enthusiasts' community",
+    "tags": ["AngularJS", "AWS EC2", "Moment.js", "Sass"]
+  }, {
+    "title": "poppyGP-engine",
+    "description": "Back-end providing Xspf/XML playlist parsing and RESTful API communication and authentication",
+    "tags": ["Node.js", "Express", "REST", "OAuth", "JSON", "XML"]
+  }, {
+    "title": "Portfolio",
+    "description": "Single-page web application portfolio and résumé project",
+    "tags": ["AngularJS", "HTML5", "Sass"]
+  }]
+}
