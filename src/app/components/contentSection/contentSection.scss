@@ -4,7 +4,7 @@
 
 .content-section {
   color: $black-solid;
-  padding-top: 1.50rem;
+  //padding-top: 1.50rem;
   padding-bottom: 1.00rem;
   font-size: 1.00rem;
   line-height: 1.5;
@@ -110,7 +110,7 @@
   margin-left: 0;
   margin-right: 0;
 
-  padding-top: 1.50rem;
+  padding-top: 0.50rem;
   padding-bottom: 1.00rem;
   padding-left: ($grid-gutter-width / 4);
   padding-right: ($grid-gutter-width / 4);
@@ -169,7 +169,7 @@
   // ------------------------------
 
   @include media-breakpoint-up(sm) {
-    padding-top: 3.00rem;
+    padding-top: 1.00rem;
     padding-bottom: 2.00rem;
 
     margin-bottom: 1.50rem;
