@@ -14,6 +14,22 @@ Overview
 
 
 
+Section Routes
+--------------
+
+Content section directories can be found in `src/app/sections/`.
+
+```
+Route               Section Directory
+├── /               ├── home
+├── /skills         ├── skills/
+├── /work           ├── work/
+└── /about          └── about/
+```
+
+
+
+
 Solution Stack
 --------------
 
@@ -76,203 +92,3 @@ __Development__
 
 
 
-
-Application Structure
----------------------
-
-__Proposed Modular Structure__
-
-```
-src/
-├── app/
-│   ├── components/                   --> Component Directives
-│   │   ├──
-│   │   │   ├──
-│   │   │   ├──
-│   │   │   ├──
-│   │   │   └──
-│   │   ├── collapse/                 --> Collapsible Elements
-│   │   │   ├──
-│   │   │   └──
-│   │   ├── featurette/               --> Featurette Element
-│   │   │   ├──
-│   │   │   └──
-│   │   ├── masthead/                 --> Masthead Element
-│   │   │   ├──
-│   │   │   └──
-│   │   ├── navbar/                   --> Navigation Bar
-│   │   │   ├──
-│   │   │   └──
-│   │   ├── progress/                 --> Progress Spinner/Bar
-│   │   │   ├──
-│   │   │   └──
-│   │   ├── tiles/                    --> Card-Style Tiles
-│   │   │   ├──
-│   │   │   └──
-│   │   └── components.module.js
-│   ├── core/                         --> Core/Common Module
-│   │   ├── style/
-│   │   │   ├── _animations.scss
-│   │   │   ├── _layout.scss
-│   │   │   ├── _structure.scss
-│   │   │   ├── _typography.scss
-│   │   │   ├── _utilities.scss
-│   │   │   └── _variables.scss
-│   │   ├── util/
-│   │   │   ├── dataservice.js
-│   │   │   ├── errorhandler.js
-│   │   │   ├── logger.js
-│   │   │   └── routehelper.js
-│   │   ├── core.config.js
-│   │   ├── core.constants.js
-│   │   ├── core.routes.js
-│   │   ├── core.run.js
-│   │   └── core.module.js
-│   ├── sections/                       --> Site Sections
-│   │   ├── home/
-│   │   │   ├──
-│   │   │   ├──
-│   │   │   ├──
-│   │   │   └──
-│   │   ├── skills/
-│   │   │   ├──
-│   │   │   ├──
-│   │   │   ├──
-│   │   │   └──
-│   │   ├── work/
-│   │   │   ├──
-│   │   │   ├──
-│   │   │   ├──
-│   │   │   └──
-│   │   ├── about/
-│   │   │   ├──
-│   │   │   ├──
-│   │   │   ├──
-│   │   │   └──
-│   │   └── sections.module.js
-│   ├── view/                           --> View Layout Elements
-│   │   ├── header/
-│   │   │   ├──
-│   │   │   ├──
-│   │   │   └──
-│   │   ├── content/
-│   │   │   ├──
-│   │   │   ├──
-│   │   │   └──
-│   │   ├── footer/
-│   │   │   ├──
-│   │   │   ├──
-│   │   │   └──
-│   │   ├── view.controller.js
-│   │   └── view.module.js
-│   ├── index.scss
-│   └── index.module.js
-├── assets/
-│   ├── data/
-│   │   ├── site/
-│   │   │   ├── sections.json
-│   │   │   ├──
-│   │   │   ├──
-│   │   │   ├──
-│   │   │   ├──
-│   │   │   └──
-│   │   ├──
-│   │   │   ├──
-│   │   │   └──
-│   │   ├──
-│   │   ├──
-│   │   ├──
-│   │   └──
-│   ├── icons/
-│   │   ├──
-│   │   ├──
-│   │   └──
-│   ├── images/
-│   │   ├──
-│   │   ├──
-│   │   └──
-│   └──
-├── index.html
-├──
-├──
-└──
-```
-
-
-
-
-Blarg
------
-
-```
-html,
-body {
-  background: transparent;
-  border: 0;
-  font-size: 100%;
-  margin: 0;
-  outline: 0;
-  padding: 0;
-  vertical-align: baseline;
-}
-
-
-// viewport-md
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  body {
-    height: 75%
-  }
-}
-
-// viewport-lg
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
-  html,
-  body {
-    height: 100%
-  }
-  body {
-    background-color: rgba(255, 255, 255, 1)
-  }
-}
-
-// tablet landscape
-@media only screen and (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
-  .content-wrapper {
-    background-color: rgba(242, 242, 242, 1);
-    margin: 0 auto;
-    width: 96%
-  }
-}
-
-// mobile portrait
-@media only screen and (min-width: 320px) and (max-width: 480px) and (orientation: portrait) {
-  html {
-    -webkit-text-size-adjust: none;
-  }
-  body {
-    font-size: 70%;
-    overflow-x: hidden
-  }
-}
-
-// mobile landscape
-@media only screen and (min-width: 320px) and (max-width: 568px) and (orientation: landscape) {
-  html {
-    -webkit-text-size-adjust: none
-  }
-  body {
-    background-color: rgba(255, 255, 255, 1);
-    font-size: 70%;
-    overflow-x: hidden
-  }
-  .content-wrapper {
-    background-color: rgba(242, 242, 242, 1);
-    margin: 0 auto;
-    width: 96%
-  }
-}
-
-// print
-@media only print {
-}
-```
