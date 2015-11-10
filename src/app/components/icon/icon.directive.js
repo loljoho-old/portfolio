@@ -11,20 +11,20 @@
       replace: true,
       restrict: 'E',
       templateNamespace: 'svg',
-      templateUrl: getTemplate,
+      //templateUrl: getTemplate,
       scope: {
         svgSrc  : '='
-      },
-      link: postLink
+      }//,
+      //link: postLink
     };
 
-    function postLink(scope, element, attr) {
+    //function postLink(scope, element, attr) {
 
-    }
+    //}
 
-    function getTemplate(tElement, tAttrs) {
+    //function getTemplate(tElement, tAttrs) {
 
-    }
+    //}
 
     return directive;
   }

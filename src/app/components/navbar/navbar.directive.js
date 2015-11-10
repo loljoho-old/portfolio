@@ -15,8 +15,8 @@
       //   creationDate: '='
       // },
       controller: 'NavbarController',
-      controllerAs: 'nav',
-      bindToController: true
+      controllerAs: 'nav'
+      //bindToController: true
     };
 
     return directive;

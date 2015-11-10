@@ -20,7 +20,6 @@
 
     /** @ngInject */
     function MastheadController($log) {
-      var vm = this;
 
       activate();
 

@@ -33,13 +33,16 @@
     function getCvDrives() {
       vm.cvDrives = [{
         'text': 'Google Drive',
-        'link': '/'
+        'link': '/',
+        'icon': 'assets/icons/drive__googledrive.svg'
       }, {
         'text': 'Dropbox',
-        'link': '/'
+        'link': '/',
+        'icon': 'assets/icons/drive__dropbox.svg'
       }, {
         'text': 'OneDrive',
-        'link': '/'
+        'link': '/',
+        'icon': 'assets/icons/drive__onedrive.svg'
       }];
     }
 
@@ -47,8 +50,7 @@
     // Drives for CV Download
     // ------------------------------
 
-    function getPlaceholders() {
-    }
+    
 
 
 

@@ -21,6 +21,14 @@
       </li>
     </ul>
 
+    <ul class="nav navbar-nav pull-right">
+      <li class="nav-item" ng-repeat="item in vm.cvDrives">
+        <a class="nav-link" ng-href="{{ item.link }}">
+          <img class="img-responsive icon-button" ng-src="{{ item.icon }}">
+        </a>
+      </li>
+    </ul>
+
 
   </div>
 
